@@ -11,6 +11,7 @@ import { DebounceTimeComponent } from './debounce-time/debounce-time.component';
 import { SuggestionItemComponent } from './suggestion-item/suggestion-item.component';
 import { SwitchMapComponent } from './switch-map/switch-map.component';
 import { PortalModule } from '@angular/cdk/portal';
+import { DebounceWithSwitchmapComponent } from './debounce-with-switchmap/debounce-with-switchmap.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { PortalModule } from '@angular/cdk/portal';
     SuggestionItemComponent,
     SwitchMapComponent,
     DebounceTimeComponent,
-    CurrentComponent
+    CurrentComponent,
+    DebounceWithSwitchmapComponent
   ],
   imports: [
     BrowserModule,
